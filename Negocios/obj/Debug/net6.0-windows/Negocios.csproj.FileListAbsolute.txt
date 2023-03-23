@@ -1,0 +1,17 @@
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\bin\Debug\net6.0-windows\Negocios.deps.json
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\bin\Debug\net6.0-windows\Negocios.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\bin\Debug\net6.0-windows\Negocios.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\bin\Debug\net6.0-windows\Datos.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\bin\Debug\net6.0-windows\Entidad.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\bin\Debug\net6.0-windows\Datos.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\bin\Debug\net6.0-windows\Entidad.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.AssemblyInfoInputs.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.AssemblyInfo.cs
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.csproj.CopyComplete
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\refint\Negocios.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\Negocios.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Negocios\obj\Debug\net6.0-windows\ref\Negocios.dll

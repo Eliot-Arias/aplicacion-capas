@@ -1,0 +1,15 @@
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\bin\Debug\net6.0-windows\Datos.deps.json
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\bin\Debug\net6.0-windows\Datos.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\bin\Debug\net6.0-windows\Datos.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\bin\Debug\net6.0-windows\Entidad.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\bin\Debug\net6.0-windows\Entidad.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.AssemblyInfoInputs.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.AssemblyInfo.cs
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.csproj.CopyComplete
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\refint\Datos.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\Datos.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Datos\obj\Debug\net6.0-windows\ref\Datos.dll

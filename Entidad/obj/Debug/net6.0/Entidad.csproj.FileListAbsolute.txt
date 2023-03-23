@@ -1,0 +1,12 @@
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\bin\Debug\net6.0\Entidad.deps.json
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\bin\Debug\net6.0\Entidad.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\bin\Debug\net6.0\Entidad.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\Entidad.csproj.AssemblyReference.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\Entidad.AssemblyInfoInputs.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\Entidad.AssemblyInfo.cs
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\Entidad.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\refint\Entidad.dll
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\Entidad.pdb
+C:\Users\Alumno\Documents\Aplicacion-Capas\Entidad\obj\Debug\net6.0\ref\Entidad.dll
