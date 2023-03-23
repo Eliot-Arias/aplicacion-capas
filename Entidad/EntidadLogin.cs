@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidad
 {
-    internal class EntidadLogin
+    public class EntidadLogin
     {
         public string Usuario { get; set; }
         public string Contraseña{ get; set;}

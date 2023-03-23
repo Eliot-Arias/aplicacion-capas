@@ -9,7 +9,7 @@ using System.Data;
 
 namespace Datos
 {
-    internal class DatosLogin
+    public class DatosLogin
     {
         private static string strConexion = @"Server=DESKTOPPE21LUS\MSSQLSERVER19;Database=AplicacionCapas;UserId=sesionlp;Password=lp2023;";
         //private static string strConexion = @"Server=DESKTOPPE21LUS\MSSQLSERVER19;Database=AplicacionCapas;Trusted_Connection=True;";
@@ -30,7 +30,5 @@ namespace Datos
                 }
             }
         }
-        
-        
     }
 }

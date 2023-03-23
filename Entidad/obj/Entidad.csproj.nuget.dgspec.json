@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Aplicacion Capas C#\\AplicacionCapas\\Entidad\\Entidad.csproj": {}
+    "C:\\Users\\Alumno\\Documents\\Aplicacion-Capas\\Entidad\\Entidad.csproj": {}
   },
   "projects": {
-    "F:\\Aplicacion Capas C#\\AplicacionCapas\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\Alumno\\Documents\\Aplicacion-Capas\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Aplicacion Capas C#\\AplicacionCapas\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Documents\\Aplicacion-Capas\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "F:\\Aplicacion Capas C#\\AplicacionCapas\\Entidad\\Entidad.csproj",
-        "packagesPath": "C:\\Users\\ratworld\\.nuget\\packages\\",
-        "outputPath": "F:\\Aplicacion Capas C#\\AplicacionCapas\\Entidad\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\Documents\\Aplicacion-Capas\\Entidad\\Entidad.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\Documents\\Aplicacion-Capas\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ratworld\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
