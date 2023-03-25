@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QiYG2S/REvv/qwAHvd05Xe1FNOWpeKj5cy5jyXahed4Mbfs0slHm6OkYqKuZ5qEVyFu/WloxB16gRg9CO4fGEQ==",
+  "dgSpecHash": "QlJZlwOh6So+V2Z9G96lIm37/CWA0f+RH73zpQ1WekgJY79sqXSrXJQ6B0KOcfZzovAgrKMaY2q3M8rfqhLd1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\Documents\\Aplicacion-Capas\\Negocios\\Negocios.csproj",
+  "projectFilePath": "C:\\Hiuston\\AplicacionCapasEliot\\Negocios\\Negocios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

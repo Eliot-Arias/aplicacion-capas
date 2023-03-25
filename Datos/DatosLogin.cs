@@ -11,7 +11,7 @@ namespace Datos
 {
     public class DatosLogin
     {
-        private static string strConexion = @"Server=PC12;Database=AplicacionCapas;User Id=sesionlp;Password=lp2023;";
+        private static string strConexion = @"Server=PC10\VE_SERVER;Database=AplicacionCapas;User Id=sesionlp;Password=lp2023;";
         //private static string strConexion = @"Server=DESKTOPPE21LUS\MSSQLSERVER19;Database=AplicacionCapas;Trusted_Connection=True;";
 
         SqlConnection cn = new SqlConnection(strConexion);
