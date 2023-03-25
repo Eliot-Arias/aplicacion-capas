@@ -83,7 +83,7 @@
             // lblContraseña
             // 
             lblContraseña.AutoSize = true;
-            lblContraseña.Location = new Point(254, 77);
+            lblContraseña.Location = new Point(263, 69);
             lblContraseña.Name = "lblContraseña";
             lblContraseña.Size = new Size(67, 15);
             lblContraseña.TabIndex = 4;
@@ -91,9 +91,9 @@
             // 
             // txtPwd
             // 
-            txtPwd.Location = new Point(327, 78);
+            txtPwd.Location = new Point(405, 66);
             txtPwd.Name = "txtPwd";
-            txtPwd.Size = new Size(100, 23);
+            txtPwd.Size = new Size(131, 23);
             txtPwd.TabIndex = 5;
             // 
             // lblApellidos
@@ -115,7 +115,7 @@
             // lblConfirmar
             // 
             lblConfirmar.AutoSize = true;
-            lblConfirmar.Location = new Point(248, 124);
+            lblConfirmar.Location = new Point(263, 118);
             lblConfirmar.Name = "lblConfirmar";
             lblConfirmar.Size = new Size(120, 15);
             lblConfirmar.TabIndex = 8;
@@ -123,9 +123,9 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(330, 120);
+            textBox4.Location = new Point(405, 115);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
+            textBox4.Size = new Size(131, 23);
             textBox4.TabIndex = 9;
             // 
             // lblLogin
@@ -163,16 +163,16 @@
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(442, 186);
+            btnGuardar.Location = new Point(405, 169);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(75, 23);
+            btnGuardar.Size = new Size(131, 23);
             btnGuardar.TabIndex = 15;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
             // 
             // txtRol
             // 
-            txtRol.Location = new Point(317, 186);
+            txtRol.Location = new Point(263, 169);
             txtRol.Name = "txtRol";
             txtRol.Size = new Size(100, 23);
             txtRol.TabIndex = 16;
