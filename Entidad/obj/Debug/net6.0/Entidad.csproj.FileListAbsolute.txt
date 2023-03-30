@@ -22,3 +22,15 @@ C:\Hiuston\AplicacionCapasEliot\Entidad\obj\Debug\net6.0\Entidad.dll
 C:\Hiuston\AplicacionCapasEliot\Entidad\obj\Debug\net6.0\refint\Entidad.dll
 C:\Hiuston\AplicacionCapasEliot\Entidad\obj\Debug\net6.0\Entidad.pdb
 C:\Hiuston\AplicacionCapasEliot\Entidad\obj\Debug\net6.0\ref\Entidad.dll
+C:\Hiuston\ApppCapas\Entidad\bin\Debug\net6.0\Entidad.deps.json
+C:\Hiuston\ApppCapas\Entidad\bin\Debug\net6.0\Entidad.dll
+C:\Hiuston\ApppCapas\Entidad\bin\Debug\net6.0\Entidad.pdb
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\Entidad.csproj.AssemblyReference.cache
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\Entidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\Entidad.AssemblyInfoInputs.cache
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\Entidad.AssemblyInfo.cs
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\Entidad.csproj.CoreCompileInputs.cache
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\Entidad.dll
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\refint\Entidad.dll
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\Entidad.pdb
+C:\Hiuston\ApppCapas\Entidad\obj\Debug\net6.0\ref\Entidad.dll

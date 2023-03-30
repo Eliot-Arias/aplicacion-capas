@@ -37,13 +37,13 @@
             lblApellidos = new Label();
             txtApe = new TextBox();
             lblConfirmar = new Label();
-            textBox4 = new TextBox();
+            txtPwd2 = new TextBox();
             lblLogin = new Label();
             txtLogin = new TextBox();
             lblRol = new Label();
             cmbRol = new ComboBox();
             btnGuardar = new Button();
-            txtRol = new TextBox();
+            txtIdUsu = new TextBox();
             SuspendLayout();
             // 
             // lblDatos
@@ -93,6 +93,7 @@
             // 
             txtPwd.Location = new Point(405, 66);
             txtPwd.Name = "txtPwd";
+            txtPwd.PasswordChar = '*';
             txtPwd.Size = new Size(131, 23);
             txtPwd.TabIndex = 5;
             // 
@@ -121,12 +122,13 @@
             lblConfirmar.TabIndex = 8;
             lblConfirmar.Text = "Confimar Contraseña";
             // 
-            // textBox4
+            // txtPwd2
             // 
-            textBox4.Location = new Point(405, 115);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(131, 23);
-            textBox4.TabIndex = 9;
+            txtPwd2.Location = new Point(405, 115);
+            txtPwd2.Name = "txtPwd2";
+            txtPwd2.PasswordChar = '*';
+            txtPwd2.Size = new Size(131, 23);
+            txtPwd2.TabIndex = 9;
             // 
             // lblLogin
             // 
@@ -169,26 +171,27 @@
             btnGuardar.TabIndex = 15;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
             // 
-            // txtRol
+            // txtIdUsu
             // 
-            txtRol.Location = new Point(263, 169);
-            txtRol.Name = "txtRol";
-            txtRol.Size = new Size(100, 23);
-            txtRol.TabIndex = 16;
+            txtIdUsu.Location = new Point(263, 169);
+            txtIdUsu.Name = "txtIdUsu";
+            txtIdUsu.Size = new Size(100, 23);
+            txtIdUsu.TabIndex = 16;
             // 
             // UsuarioRegistro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(623, 285);
-            Controls.Add(txtRol);
+            Controls.Add(txtIdUsu);
             Controls.Add(btnGuardar);
             Controls.Add(cmbRol);
             Controls.Add(lblRol);
             Controls.Add(txtLogin);
             Controls.Add(lblLogin);
-            Controls.Add(textBox4);
+            Controls.Add(txtPwd2);
             Controls.Add(lblConfirmar);
             Controls.Add(txtApe);
             Controls.Add(lblApellidos);
@@ -200,6 +203,7 @@
             Controls.Add(lblDatos);
             Name = "UsuarioRegistro";
             Text = "UsuarioRegistro";
+            Load += UsuarioRegistro_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -215,12 +219,12 @@
         private Label lblApellidos;
         private TextBox txtApe;
         private Label lblConfirmar;
-        private TextBox textBox4;
+        private TextBox txtPwd2;
         private Label lblLogin;
         private TextBox txtLogin;
         private Label lblRol;
         private ComboBox cmbRol;
         private Button btnGuardar;
-        private TextBox txtRol;
+        private TextBox txtIdUsu;
     }
 }

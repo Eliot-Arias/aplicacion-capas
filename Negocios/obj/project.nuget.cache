@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QlJZlwOh6So+V2Z9G96lIm37/CWA0f+RH73zpQ1WekgJY79sqXSrXJQ6B0KOcfZzovAgrKMaY2q3M8rfqhLd1w==",
+  "dgSpecHash": "2YAD1L4MA5lcfV5MsC4oYxke4VuVjf6BAXWYGfQDKgZybH65YJRE7csh1jbRGgMmp7UhS+recCzcrCjGYr8yqQ==",
   "success": true,
-  "projectFilePath": "C:\\Hiuston\\AplicacionCapasEliot\\Negocios\\Negocios.csproj",
+  "projectFilePath": "C:\\Hiuston\\ApppCapas\\Negocios\\Negocios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

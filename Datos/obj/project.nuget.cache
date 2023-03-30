@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kl3d3CSjPuFRI/IDF7QMA3U3AMWBnR4eSI/bhrkIXRP6CuKf/GmKQ4/MdR3/zaU9IK9ZR7EKr9JVel0Hf9nrpA==",
+  "dgSpecHash": "ir4P1A9y2o8PDH32O5DNbV2Cmft0M0Yf8nzyRptpRWzBttU9llXvYiif+xCsEVoKAWf0GoPXy2XzU4TQgU8thw==",
   "success": true,
-  "projectFilePath": "C:\\Hiuston\\AplicacionCapasEliot\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Hiuston\\ApppCapas\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
