@@ -1,4 +1,6 @@
-﻿using Entidad;
+﻿using Datos;
+using Entidad;
+using Microsoft.VisualBasic;
 using Negocios;
 
 using System;
@@ -47,7 +49,35 @@ namespace AplicacionCapas
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            ValidaLogin();
+            //ValidaLogin();
+            if (txtUsuario.Text == "")
+                txtUsuario.Focus();
+            else if (txtContraseña.Text == "")
+                txtContraseña.Focus();
+            else
+            {
+                string add;
+                usuarios LOG = new usuarios();
+                add = LOG.Login(txtUsuario.Text, txtContraseña.Text);
+                if (add == "1")
+                {
+                    inicio.loginUsu = txtUsuario.Text;
+                    Principal frm = new Principal();
+                    frm.Show();
+                    this.Hide();
+                }
+                else if (add == "0")
+                {
+                    MessageBox.Show("ERROR de USUARIO y CONTRASEÑA" + Constants.vbNewLine + "Vuelva a Intentarlo",
+                   "Inicio de Sesión ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    txtContraseña.ResetText();
+                    txtContraseña.Focus();
+                }
+                else
+                    MessageBox.Show("ERROR de SERVIDOR, revice su conexion y el SERVIDOR." + Constants.vbNewLine +
+                   "Vuelva a Intentarlo" + Constants.vbNewLine + LOG.erru, "Inicio de Sesión ",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)

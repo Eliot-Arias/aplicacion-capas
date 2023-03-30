@@ -69,6 +69,7 @@
             btnNuevo.TabIndex = 3;
             btnNuevo.Text = "NUEVO";
             btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.Click += btnNuevo_Click;
             // 
             // btnGuardar
             // 
@@ -78,6 +79,7 @@
             btnGuardar.TabIndex = 4;
             btnGuardar.Text = "GUARDAR";
             btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // RolPermisos
             // 

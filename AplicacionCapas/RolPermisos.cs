@@ -1,5 +1,6 @@
 ﻿using Datos;
 using Entidad;
+using Microsoft.VisualBasic;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -108,6 +109,44 @@ namespace AplicacionCapas
                 }
             }
 
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            string NOM_Rol;
+            usuarios adrol = new usuarios();
+            NOM_Rol = Interaction.InputBox("Ingresa el NOMBRE del nuevo rol", "NUEVO ROL", "");
+            if (NOM_Rol != "" & NOM_Rol != null)
+            {
+                if (adrol.AddRol(NOM_Rol) == 1)
+                {
+                    Interaction.MsgBox("Se inserto correctamente el nuevo ROL",
+                   Constants.vbInformation);
+                    RolPermisos_Load(sender, e);
+                    cmbRol.Text = NOM_Rol;
+                    tvPermisos.Nodes.Clear();
+                    populateTreeView(json.LoadTree().Node);
+                }
+                else
+                    MessageBox.Show(adrol.erru, "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            // Manux
+            // Se declaran variables para poder guardar el JSON generado
+            // y se envia un mensaje de confirmacion o del posible error.
+            security sec = new security();
+            usuarios save = new usuarios();
+            var result = save.UPRol(System.Convert.ToInt32(cmbRol.SelectedValue),
+           sec.EncryptText(json.GEN_JSON(tvPermisos), "SECURITY_KEY"));
+            if (result == "1")
+                MessageBox.Show("Se guardo exitosamente","",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            else
+                MessageBox.Show("ERROR: " + save.erru, "", MessageBoxButtons.OK,
+               MessageBoxIcon.Error);
         }
     }
 }
