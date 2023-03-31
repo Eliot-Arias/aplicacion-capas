@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hjf/BBjvkXVq8h3uQuUemf0v4lpvAGY7txLNUkcWQ8tMEdFcSeHqccLPqAweb0IWU9NGrv43ftlE1c2CuDYgbA==",
+  "dgSpecHash": "CivzQEiH1Nj5jSpnwktLoXqe134VsuDwaDxt3h9DxnGZeJg5MhaXyn1ingopS1rIJanGC4b13HPgiiy+DWOIUQ==",
   "success": true,
-  "projectFilePath": "C:\\Hiuston\\ApppCapas\\AplicacionCapas\\AplicacionCapas.csproj",
+  "projectFilePath": "C:\\Users\\Alumno\\Documents\\appCapas\\AplicacionCapas\\AplicacionCapas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

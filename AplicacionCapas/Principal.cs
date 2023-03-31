@@ -126,8 +126,7 @@ namespace AplicacionCapas
                         if (oOpcionMenu.Name.ToLower() == ngObject.Id.ToLower())
                             oOpcionMenu.Enabled = ngObject.Value;
                         if ((ngObject.SubNodo != null && ngObject.SubNodo.Count > 0))
-                            RecorrerSubMenu(ngObject.SubNodo,
-                           oOpcionMenu.DropDownItems);
+                            RecorrerSubMenu(ngObject.SubNodo,oOpcionMenu.DropDownItems);
                     }
                 }
             }

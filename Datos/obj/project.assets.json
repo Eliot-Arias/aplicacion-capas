@@ -536,11 +536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hiuston\\ApppCapas\\Datos\\Datos.csproj",
+      "projectUniqueName": "C:\\Users\\Alumno\\Documents\\appCapas\\Datos\\Datos.csproj",
       "projectName": "Datos",
-      "projectPath": "C:\\Hiuston\\ApppCapas\\Datos\\Datos.csproj",
+      "projectPath": "C:\\Users\\Alumno\\Documents\\appCapas\\Datos\\Datos.csproj",
       "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Hiuston\\ApppCapas\\Datos\\obj\\",
+      "outputPath": "C:\\Users\\Alumno\\Documents\\appCapas\\Datos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -562,8 +562,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Hiuston\\ApppCapas\\Entidad\\Entidad.csproj": {
-              "projectPath": "C:\\Hiuston\\ApppCapas\\Entidad\\Entidad.csproj"
+            "C:\\Users\\Alumno\\Documents\\appCapas\\Entidad\\Entidad.csproj": {
+              "projectPath": "C:\\Users\\Alumno\\Documents\\appCapas\\Entidad\\Entidad.csproj"
             }
           }
         }

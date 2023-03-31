@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hiuston\\ApppCapas\\Entidad\\Entidad.csproj",
+      "projectUniqueName": "C:\\Users\\Alumno\\Documents\\appCapas\\Entidad\\Entidad.csproj",
       "projectName": "Entidad",
-      "projectPath": "C:\\Hiuston\\ApppCapas\\Entidad\\Entidad.csproj",
+      "projectPath": "C:\\Users\\Alumno\\Documents\\appCapas\\Entidad\\Entidad.csproj",
       "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Hiuston\\ApppCapas\\Entidad\\obj\\",
+      "outputPath": "C:\\Users\\Alumno\\Documents\\appCapas\\Entidad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

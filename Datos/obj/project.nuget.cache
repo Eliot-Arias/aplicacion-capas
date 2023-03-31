@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ir4P1A9y2o8PDH32O5DNbV2Cmft0M0Yf8nzyRptpRWzBttU9llXvYiif+xCsEVoKAWf0GoPXy2XzU4TQgU8thw==",
+  "dgSpecHash": "ZhVtTedMFgYPoB7T/0wCa7CZA4Kiwv4d/vo0PF7res2wNhdY3JqeUZn71f/Ho6fZ1kP19ISyr1fBsDw5iCd9SA==",
   "success": true,
-  "projectFilePath": "C:\\Hiuston\\ApppCapas\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Users\\Alumno\\Documents\\appCapas\\Datos\\Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Alumno\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
