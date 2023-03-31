@@ -2,15 +2,6 @@
 using Entidad;
 using Microsoft.VisualBasic;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace AplicacionCapas
 {
@@ -143,7 +134,7 @@ namespace AplicacionCapas
             var result = save.UPRol(System.Convert.ToInt32(cmbRol.SelectedValue),
            sec.EncryptText(json.GEN_JSON(tvPermisos), "SECURITY_KEY"));
             if (result == "1")
-                MessageBox.Show("Se guardo exitosamente","",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show("Se guardo exitosamente", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
                 MessageBox.Show("ERROR: " + save.erru, "", MessageBoxButtons.OK,
                MessageBoxIcon.Error);

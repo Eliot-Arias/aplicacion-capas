@@ -2,16 +2,7 @@
 using Entidad;
 using Microsoft.VisualBasic;
 using Negocios;
-
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace AplicacionCapas
 {
@@ -44,7 +35,7 @@ namespace AplicacionCapas
                 //FrmMenuPrincipal Frm = new FrmMenuPrincipal();
                 //Frm.Show();
             }
-            
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -68,14 +59,14 @@ namespace AplicacionCapas
                 }
                 else if (add == "0")
                 {
-                    MessageBox.Show("ERROR de USUARIO y CONTRASEÑA" + Constants.vbNewLine + "Vuelva a Intentarlo",
-                   "Inicio de Sesión ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("ERROR de USUARIO y CONTRASEÑA" + Constants.vbNewLine + "Vuelva a Intentarlo", "Inicio de Sesión ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtContraseña.ResetText();
                     txtContraseña.Focus();
                 }
                 else
-                    MessageBox.Show("ERROR de SERVIDOR, revice su conexion y el SERVIDOR." + Constants.vbNewLine +
-                   "Vuelva a Intentarlo" + Constants.vbNewLine + LOG.erru, "Inicio de Sesión ",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                {
+                    MessageBox.Show("ERROR de SERVIDOR, revice su conexion y el SERVIDOR." + Constants.vbNewLine + "Vuelva a Intentarlo" + Constants.vbNewLine + LOG.erru, "Inicio de Sesión ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
 
         }

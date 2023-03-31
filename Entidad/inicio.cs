@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entidad
+﻿namespace Entidad
 {
-    static class inicio
+    static public class inicio
     {
 
         // variables que se usaran en el sistema

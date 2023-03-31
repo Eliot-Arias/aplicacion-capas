@@ -13,6 +13,9 @@
     <Compile Update="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="RolPermisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UsuarioRegistro.cs">
       <SubType>Form</SubType>
     </Compile>

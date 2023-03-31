@@ -1,9 +1,4 @@
 ﻿using Entidad;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace Datos
@@ -457,12 +452,12 @@ namespace Datos
             nodeConfiguracion.SubNodo.Add(subUsuarios);
             nodeConfiguracion.SubNodo.Add(subNodeRoles);
             // NODO 4 ********************************************************************************
-             var nodeVentanas = new NODOHIJO()
-             {
-                 Id = "WindowsMenu",
-                 Name = "Ventanas",
-                 Value = false
-             };
+            var nodeVentanas = new NODOHIJO()
+            {
+                Id = "WindowsMenu",
+                Name = "Ventanas",
+                Value = false
+            };
             nodeVentanas.SubNodo = new List<NODOHIJO>();
             var subNodeNueva = new NODOHIJO()
             {

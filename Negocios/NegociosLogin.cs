@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Data;
-using System.Text;
-using System.Threading.Tasks;
-
-//Dependencias
+﻿//Dependencias
 using Datos;
 using Entidad;
+using System.Data;
 
 namespace Negocios
 {

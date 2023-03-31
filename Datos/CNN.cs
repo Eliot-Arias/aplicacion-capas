@@ -1,34 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
 namespace Datos
 {
     public class CNN
     {
-        public SqlConnection cn; 
+        public SqlConnection cn;
         public string er;
         public bool INICIACONEX()
         {
             try
             {
-                security SEC = new security(); 
-                var cs = SEC.DecryptText(System.Configuration.ConfigurationManager.ConnectionStrings["Connection"].ConnectionString, "SECURITY_KEY");
-                //cs = @"Server=DESKTOP-PE21LUS\MSSQLSERVER19;Database=BDPERMISOS;User Id=sesionlp;Password=lp2022;";
-                cn = new SqlConnection(cs); 
-                if (cn.State == 0) 
-                    cn.Open(); 
+                security SEC = new security();
+                var cs = @"Server=PC10\VE_SERVER;Database=BDPERMISOS;User Id=sesionlp;Password=lp2023;";
+                cn = new SqlConnection(cs);
+                if (cn.State == 0)
+                    cn.Open();
                 return true;
             }
             catch (Exception ex)
             {
-                er = ex.Message; return false;
+                er = ex.Message;
+                return false;
             }
         }
-
         public int CERRARCONEX()
         {
             try
@@ -42,6 +36,7 @@ namespace Datos
                 return 0;
             }
         }
+
 
     }
 }

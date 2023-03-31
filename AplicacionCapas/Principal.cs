@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+﻿using Datos;
+using Entidad;
+using Newtonsoft.Json;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace AplicacionCapas
 {
@@ -102,6 +97,84 @@ namespace AplicacionCapas
             {
                 childForm.Close();
             }
+        }
+
+        private void menuUsuario_Click(object sender, EventArgs e)
+        {
+            ListaUsuario frm = new ListaUsuario();
+            frm.ShowDialog();
+        }
+
+        private void menuRoles_Click(object sender, EventArgs e)
+        {
+            RolPermisos frm = new RolPermisos();
+            frm.ShowDialog();
+        }
+        //asdasdsadsadsadsaddddddddddddddd
+        private void LlenarMenu(List<NODOHIJO> childObjects)
+        {
+            if (childObjects != null && childObjects.Count > 0)
+            {
+                foreach (var ngObject in childObjects)
+                {
+                    foreach (ToolStripMenuItem oOpcionMenu in this.menuStrip.Items)
+                    {
+                        if (oOpcionMenu.Name.ToLower() == "mnuconfiguracion")
+                        {
+                            int A = 1;
+                        }
+                        if (oOpcionMenu.Name.ToLower() == ngObject.Id.ToLower())
+                            oOpcionMenu.Enabled = ngObject.Value;
+                        if ((ngObject.SubNodo != null && ngObject.SubNodo.Count > 0))
+                            RecorrerSubMenu(ngObject.SubNodo,
+                           oOpcionMenu.DropDownItems);
+                    }
+                }
+            }
+        }
+        private void RecorrerSubMenu(List<NODOHIJO> childObjects, ToolStripItemCollection oSubmenuItems)
+        {
+            if (childObjects != null && childObjects.Count > 0)
+            {
+                foreach (var ngObject in childObjects)
+                {
+                    string nodeText = ngObject.Name;
+                    foreach (ToolStripItem oSubItem in oSubmenuItems)
+                    {
+                        if (oSubItem.GetType() == typeof(ToolStripMenuItem))
+                        {
+                            if (oSubItem.Name.ToLower() == ngObject.Id.ToLower())
+                            {
+                                oSubItem.Enabled = ngObject.Value;
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+            // ###############
+            // Obtengo el JSON con los permisos de la base de datos de acuerdo al 
+            // usuariolo Deserealizo y utilizo la funcion LlenarMenu y le envio 
+            // el JSON utilizando el modelo creado
+            security sec = new security();
+            usuarios ver = new usuarios();
+
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+            Encoding srcEncoding = Encoding.GetEncoding(1251);
+            inicio.JSONStr = Convert.ToString(ver.VerDatosLogin(inicio.loginUsu).Tables[0].Rows[0][3]);
+            // TODO Siempre validar
+            inicio.JSONStr = sec.DecryptText(inicio.JSONStr, "SECURITY_KEY");
+            var user = JsonConvert.DeserializeObject<NodeRootDto>(inicio.JSONStr);
+            // MsgBox(user.Node(0).Id)
+            LlenarMenu(user.Node);
+
+            // #######################################################
+            toolStripStatusLabel.Text = inicio.loginUsu;
+
         }
     }
 }

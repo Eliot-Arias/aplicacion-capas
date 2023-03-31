@@ -118,3 +118,4 @@ C:\Hiuston\ApppCapas\AplicacionCapas\obj\Debug\net6.0-windows\AplicacionCapas.pd
 C:\Hiuston\ApppCapas\AplicacionCapas\obj\Debug\net6.0-windows\AplicacionCapas.genruntimeconfig.cache
 C:\Hiuston\ApppCapas\AplicacionCapas\obj\Debug\net6.0-windows\ref\AplicacionCapas.dll
 C:\Hiuston\ApppCapas\AplicacionCapas\obj\Debug\net6.0-windows\AplicacionCapas.ListaUsuario.resources
+C:\Hiuston\ApppCapas\AplicacionCapas\obj\Debug\net6.0-windows\AplicacionCapas.RolPermisos.resources
