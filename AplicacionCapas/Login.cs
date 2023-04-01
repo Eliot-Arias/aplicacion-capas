@@ -64,9 +64,7 @@ namespace AplicacionCapas
                     txtContraseña.Focus();
                 }
                 else
-                {
                     MessageBox.Show("ERROR de SERVIDOR, revice su conexion y el SERVIDOR." + Constants.vbNewLine + "Vuelva a Intentarlo" + Constants.vbNewLine + LOG.erru, "Inicio de Sesión ", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
 
         }

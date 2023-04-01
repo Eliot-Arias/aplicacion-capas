@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H5NOZuWRDlWu6h9uyY0R+8mUYXw+OyTSyO/l/3+n4Eu4wGu5my7h7XrM8DvVQbCnFnabSpNhyRJOTMttMeM3ew==",
+  "dgSpecHash": "w7GqyKV42o36TSs5JsaLMPq26YmGnacMoEBbvq5RafRe5LLwxCqZFdlv2lb83aMWGp7ihPPQ+fbze3d4ycop/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alumno\\Documents\\appCapas\\Entidad\\Entidad.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

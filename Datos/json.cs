@@ -1,6 +1,10 @@
-﻿using Entidad;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Entidad;
 using Newtonsoft.Json;
-
 namespace Datos
 {
     public static class json
@@ -13,15 +17,15 @@ namespace Datos
             {
                 NodeRootDto nodeDto = new NodeRootDto();
                 List<NODOHIJO> nP = new List<NODOHIJO>();
-                // Se recorren los nodos en el TREEVIEW
+                // Se recorren los nodos en el TREEVIEW 
                 foreach (TreeNode padre in treeview.Nodes)
                 {
                     var subChield = GetJson_ChieldNode(padre);
                     nP.Add(subChield);
                 }
-                // Se almacena la estructura
+                // Se almacena la estructura 
                 nodeDto.Node = nP;
-                // ' Se convierte e formato JSON
+                // ' Se convierte e formato JSON 
                 string jsonstr = JsonConvert.SerializeObject(nodeDto);
                 return jsonstr;
             }
@@ -452,12 +456,12 @@ namespace Datos
             nodeConfiguracion.SubNodo.Add(subUsuarios);
             nodeConfiguracion.SubNodo.Add(subNodeRoles);
             // NODO 4 ********************************************************************************
-            var nodeVentanas = new NODOHIJO()
-            {
-                Id = "WindowsMenu",
-                Name = "Ventanas",
-                Value = false
-            };
+             var nodeVentanas = new NODOHIJO()
+             {
+                 Id = "WindowsMenu",
+                 Name = "Ventanas",
+                 Value = false
+             };
             nodeVentanas.SubNodo = new List<NODOHIJO>();
             var subNodeNueva = new NODOHIJO()
             {

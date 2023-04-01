@@ -9,7 +9,8 @@
       "AplicacionCapas/1.0.0": {
         "dependencies": {
           "Entidad": "1.0.0",
-          "Negocios": "1.0.0"
+          "Negocios": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "AplicacionCapas.dll": {}
@@ -109,6 +110,9 @@
         }
       },
       "Entidad/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "runtime": {
           "Entidad.dll": {}
         }

@@ -78,7 +78,7 @@
             dgList.Location = new Point(24, 50);
             dgList.Name = "dgList";
             dgList.RowTemplate.Height = 25;
-            dgList.Size = new Size(744, 63);
+            dgList.Size = new Size(744, 260);
             dgList.TabIndex = 3;
             // 
             // idUser
@@ -127,7 +127,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(785, 405);
+            ClientSize = new Size(793, 405);
             Controls.Add(dgList);
             Controls.Add(btnAdd);
             Controls.Add(btnEdit);

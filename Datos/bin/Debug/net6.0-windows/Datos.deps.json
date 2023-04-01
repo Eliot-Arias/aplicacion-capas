@@ -100,6 +100,9 @@
       },
       "System.Security.Principal.Windows/4.7.0": {},
       "Entidad/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "runtime": {
           "Entidad.dll": {}
         }

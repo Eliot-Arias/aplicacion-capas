@@ -10,7 +10,6 @@ namespace Datos
 {
     public class security
     {
-
         public string getMd5Hash(string input)
         {
             // Create a new instance of the MD5 object.
@@ -81,8 +80,6 @@ namespace Datos
                 strBuff = strText;
             return strBuff;
         }
-
-
 
     }
 }

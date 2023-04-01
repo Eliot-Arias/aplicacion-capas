@@ -402,14 +402,14 @@
             // menuUsuario
             // 
             menuUsuario.Name = "menuUsuario";
-            menuUsuario.Size = new Size(180, 22);
+            menuUsuario.Size = new Size(119, 22);
             menuUsuario.Text = "Usuarios";
             menuUsuario.Click += menuUsuario_Click;
             // 
             // menuRoles
             // 
             menuRoles.Name = "menuRoles";
-            menuRoles.Size = new Size(180, 22);
+            menuRoles.Size = new Size(119, 22);
             menuRoles.Text = "Roles";
             menuRoles.Click += menuRoles_Click;
             // 

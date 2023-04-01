@@ -111,6 +111,8 @@ namespace AplicacionCapas
             frm.ShowDialog();
         }
         //asdasdsadsadsadsaddddddddddddddd
+
+        // aqui codigo
         private void LlenarMenu(List<NODOHIJO> childObjects)
         {
             if (childObjects != null && childObjects.Count > 0)
@@ -119,18 +121,20 @@ namespace AplicacionCapas
                 {
                     foreach (ToolStripMenuItem oOpcionMenu in this.menuStrip.Items)
                     {
-                        if (oOpcionMenu.Name.ToLower() == "mnuconfiguracion")
+                        if (oOpcionMenu.Name.ToLower() == "menuConfiguracion")
                         {
                             int A = 1;
                         }
                         if (oOpcionMenu.Name.ToLower() == ngObject.Id.ToLower())
                             oOpcionMenu.Enabled = ngObject.Value;
                         if ((ngObject.SubNodo != null && ngObject.SubNodo.Count > 0))
-                            RecorrerSubMenu(ngObject.SubNodo,oOpcionMenu.DropDownItems);
+                            RecorrerSubMenu(ngObject.SubNodo,
+                           oOpcionMenu.DropDownItems);
                     }
                 }
             }
         }
+
         private void RecorrerSubMenu(List<NODOHIJO> childObjects, ToolStripItemCollection oSubmenuItems)
         {
             if (childObjects != null && childObjects.Count > 0)
@@ -162,15 +166,16 @@ namespace AplicacionCapas
             security sec = new security();
             usuarios ver = new usuarios();
 
+
+            inicio.JSONStr = Convert.ToString(ver.VerDatosLogin(inicio.loginUsu).Tables[0].Rows[0][3]);
+
             System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
             Encoding srcEncoding = Encoding.GetEncoding(1251);
-            inicio.JSONStr = Convert.ToString(ver.VerDatosLogin(inicio.loginUsu).Tables[0].Rows[0][3]);
             // TODO Siempre validar
             inicio.JSONStr = sec.DecryptText(inicio.JSONStr, "SECURITY_KEY");
             var user = JsonConvert.DeserializeObject<NodeRootDto>(inicio.JSONStr);
             // MsgBox(user.Node(0).Id)
             LlenarMenu(user.Node);
-
             // #######################################################
             toolStripStatusLabel.Text = inicio.loginUsu;
 

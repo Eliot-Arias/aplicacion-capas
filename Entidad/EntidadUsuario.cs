@@ -9,5 +9,6 @@
         public string fechaCreacion { get; set; }
         public string fechaActualizacion { get; set; }
         public string rol { get; set; }
+
     }
 }
