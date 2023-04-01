@@ -85,6 +85,8 @@
             statusStrip = new StatusStrip();
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
+            mnuReportes = new ToolStripMenuItem();
+            mnuListaReportes = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             toolStrip.SuspendLayout();
             statusStrip.SuspendLayout();
@@ -92,7 +94,7 @@
             // 
             // menuStrip
             // 
-            menuStrip.Items.AddRange(new ToolStripItem[] { fileMenu, editMenu, viewMenu, toolsMenu, windowsMenu, helpMenu, ConfigMenu });
+            menuStrip.Items.AddRange(new ToolStripItem[] { fileMenu, editMenu, viewMenu, toolsMenu, windowsMenu, helpMenu, ConfigMenu, mnuReportes });
             menuStrip.Location = new Point(0, 0);
             menuStrip.MdiWindowListItem = windowsMenu;
             menuStrip.Name = "menuStrip";
@@ -504,6 +506,20 @@
             toolStripStatusLabel.Size = new Size(42, 17);
             toolStripStatusLabel.Text = "Estado";
             // 
+            // mnuReportes
+            // 
+            mnuReportes.DropDownItems.AddRange(new ToolStripItem[] { mnuListaReportes });
+            mnuReportes.Name = "mnuReportes";
+            mnuReportes.Size = new Size(65, 20);
+            mnuReportes.Text = "Reportes";
+            // 
+            // mnuListaReportes
+            // 
+            mnuListaReportes.Name = "mnuListaReportes";
+            mnuListaReportes.Size = new Size(180, 22);
+            mnuListaReportes.Text = "Lista Reportes";
+            mnuListaReportes.Click += mnuListaReportes_Click;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -585,6 +601,8 @@
         private ToolStripMenuItem ConfigMenu;
         private ToolStripMenuItem menuUsuario;
         private ToolStripMenuItem menuRoles;
+        private ToolStripMenuItem mnuReportes;
+        private ToolStripMenuItem mnuListaReportes;
     }
 }
 

@@ -4,6 +4,9 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ListarInformes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ListaUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -19,5 +22,13 @@
     <Compile Update="UsuarioRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VisorInformes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="DatosReporte.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
 </Project>

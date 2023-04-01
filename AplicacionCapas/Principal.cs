@@ -180,5 +180,11 @@ namespace AplicacionCapas
             toolStripStatusLabel.Text = inicio.loginUsu;
 
         }
+
+        private void mnuListaReportes_Click(object sender, EventArgs e)
+        {
+            ListarInformes frm = new ListarInformes();
+            frm.ShowDialog();
+        }
     }
 }
